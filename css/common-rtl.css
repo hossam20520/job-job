@@ -1,0 +1,59 @@
+/* 14 of 150 CSS properties converted by rtl.daskhat.ir 
+ These properties should be override originals. 
+ just load rtl css file after original css file.*/ 
+
+/* body {direction:rtl;} */
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0 0 15px 0 ;
+}
+
+@media (min-width: 1024px){
+    nav.navbar.bootsnav.navbar-transparent.white .attr-nav{
+        border-right: solid 1px #bbb;
+    }
+
+    nav.navbar.navbar-inverse.bootsnav.navbar-transparent.dark .attr-nav,   nav.navbar.bootsnav.navbar-transparent.dark .attr-nav{
+        border-right: solid 1px #555;
+    }
+
+    nav.navbar.navbar-inverse ul.nav .dropdown-menu{
+        border-right: solid 1px #303030 !important;
+        border-left: solid 1px #303030 !important;
+    }
+
+    nav.navbar.navbar-inverse ul.dropdown-menu.megamenu-content .col-menu{
+        border-right: solid 1px #303030;
+        border-left: solid 1px #303030;
+    }
+
+    nav.navbar.navbar-inverse.navbar-transparent.dark .attr-nav{
+        border-right: solid 1px #999;
+    }
+
+}
+
+@media (max-width: 992px){
+    nav.navbar.navbar-mobile ul.nav ul.dropdown-menu > li > a{
+        padding-left: 15px !important;
+    }
+
+    nav.navbar.navbar-mobile ul.nav ul.dropdown-menu .col-menu .title{
+        padding-left: 30px !important;
+    }
+
+}
+
+nav.navbar.navbar-inverse .attr-nav > ul > li.dropdown ul.dropdown-menu{
+    border-right: solid 1px #303030;
+    border-left: solid 1px #303030;
+}
+
+nav.navbar.navbar-inverse .dropdown-tabs .tab-menu{
+    border-left: solid 1px #303030;
+}
+
+nav.navbar.navbar-inverse .dropdown-tabs .tab-content{
+    border-right: solid 1px #303030;
+}
+
